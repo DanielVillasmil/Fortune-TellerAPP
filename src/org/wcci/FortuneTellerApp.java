@@ -3,12 +3,11 @@ package org.wcci;
 import java.util.Scanner;
 
 public class FortuneTellerApp {
-
+    static Scanner input = new Scanner (System.in);
     public static void main(String[] args) {
 
         //Ask for first name
         System.out.println("What is your first name");
-        Scanner input = new Scanner(System.in);
 
         String firstName = input.nextLine();
 
